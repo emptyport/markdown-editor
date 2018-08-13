@@ -21,7 +21,7 @@ class Editor extends Component {
   render() {
     return (
       <div className="editor">
-        <textarea id="editor" value={this.state.text} onChange={this.handleTextChange}></textarea>
+        <textarea id="editor" value={this.state.text} onChange={this.handleTextChange} autoFocus></textarea>
       </div>
     );
   }
