@@ -13,16 +13,19 @@ html, body {
   display: flex;
   flex-direction: row;
   height: 100%;
+  max-width: 100%;
 }
 
 .editor {
-  flex: 1 1 auto;
+  flex: 1 0 auto;
   box-sizing: border-box;
 }
 
 .viewer {
-  flex: 1 1 auto;
+  flex: 0 1 auto;
   box-sizing: border-box;
+  width: 50%;
+  overflow: auto;
 }
 
 .divider {
@@ -39,4 +42,15 @@ html, body {
   height: 100%;
   background: black;
   margin: 0 auto;
+}
+
+#editor {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 0px;
+  outline: none;
+  resize: none;
+  font-size: 14px;
+  font-family: "Lucida Console", Monaco, monospace;
 }
