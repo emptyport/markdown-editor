@@ -4,10 +4,6 @@ import marked from 'marked';
 class Viewer extends Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-
-    }
     this.convertMarkdown = this.convertMarkdown.bind(this);
   }
 
@@ -17,7 +13,7 @@ class Viewer extends Component {
 
   render() {
     return (
-      <div className="viewer" dangerouslySetInnerHTML={this.convertMarkdown()}/>
+      <div id="preview" className="viewer" dangerouslySetInnerHTML={this.convertMarkdown()}/>
     );
   }
 }

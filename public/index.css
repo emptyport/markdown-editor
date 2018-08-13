@@ -25,6 +25,7 @@ html, body {
   flex: 0 1 auto;
   box-sizing: border-box;
   width: 50%;
+  overflow: auto;
 }
 
 .divider {
@@ -48,4 +49,8 @@ html, body {
   height: 100%;
   border: 0px;
   padding: 0px;
+  outline: none;
+  resize: none;
+  font-size: 14px;
+  font-family: "Lucida Console", Monaco, monospace;
 }

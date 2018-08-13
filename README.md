@@ -1,4 +1,4 @@
-# Wikipedia Viewer
+# Markdown Editor
 
 This is a markdown editor created as part of the freeCodeCamp curriculum.
 
